@@ -1,0 +1,11 @@
+{
+  "title": "$:/plugins/D&DTools/EncounterBuilder",
+  "author": "Matt Lauber",
+  "created": "2019-09-09T14:28:48.203Z",
+  "description": "D&D Encounter Builder",
+  "list": [],
+  "modified": "2019-09-10T19:06:41.385Z",
+  "plugin-priority": "1",
+  "plugin-type": "plugin",
+  "version": "1.0.8"
+}
