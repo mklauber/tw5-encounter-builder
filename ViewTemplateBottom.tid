@@ -7,7 +7,9 @@ title: $:/plugins/DMTools/EncounterBuilder/ViewTemplateBottom
 
 <div style="overflow:auto; white-space:nowrap;">
 <$list filter="[all[current]list[!!creatures]sort[]each[title]]">
+<div style="display:inline-flex;white-space:normal;">
 {{||$:/plugins/D&DTools/CreatureManager/ViewTemplate}}
+</div>
 </$list>
 </div>
 

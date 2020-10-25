@@ -73,7 +73,7 @@ Reset HP
 <$action-setfield $field=<<hp-modifier-field>> $value=<<hp-plus-1>> />
 +
 </$set></$button>
-<$set name="bloodied" filter="[<j>get[hp]divide[2]trunc[]]" select="0">
+<$set name="bloodied" filter="[<j>get[hp]divide[2]untrunc[]]" select="0">
 <$reveal stateTitle=<<currentTiddler>> stateField=<<hp-field>> type="lt" text=<<bloodied>> >{{$:/plugins/DMTools/EncounterBuilder/icons/Bloodied
 }}</$reveal></$set>
 <$list filter="[all[current]get<hp-modifier-field>] -[[0]]" variable=""><br /><div style="text-align:center">
